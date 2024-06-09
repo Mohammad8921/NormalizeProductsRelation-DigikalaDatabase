@@ -1,4 +1,4 @@
-# Normalize Products Relation of Digikala Database up to Fifth Normal Form (5NF)
+# Form Normalization of Products Relation of Digikala's Database up to Fifth Normal Form (5NF)
 In this project, I used database concepts to normalize the form of products table of Digikala. There was more relations in the dataset provided to us, but the Primary Key i.e. the key of products table does not match to the Forign Keys of the others !!. So I just worked with the products table with the following attributes:
 * `id`
 * `product_title_fa`
