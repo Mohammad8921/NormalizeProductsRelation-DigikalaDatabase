@@ -10,6 +10,7 @@ In this project, I used database concepts to normalize the form of products tabl
 * `brand_name_fa`
 * `brand_name_en`
 * `product_attributes`
+  
 Because of `title_alt` is multi-valued, I create a new table to store its content like `(prod_tilte_id, product_id, title_alt)`. Based on database concepts we know it is the best way to handle the multi-valued issue. The `product_attributes` which are a list of KEY-VALUE dictionaries were stroes in a new table with KEYs as the columns and VALUEs as the rows to make the database 3NF. All of the tables have one primary key and are 3NF. So they are 5NF.
 
 # Reqiurements
