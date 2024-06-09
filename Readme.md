@@ -1,5 +1,5 @@
 # Form Normalization of Products Relation of Digikala's Database up to Fifth Normal Form (5NF)
-In this project, I used database concepts to normalize the form of products table of Digikala. There was more relations in the dataset provided to us, but the Primary Key i.e. the key of products table does not match to the Forign Keys of the others !!. So I just worked with the products table with the following attributes:
+In this project, I used database concepts to normalize the form of products table of Digikala. There was more relations in the dataset provided to us, but the primary key of the products table does not match to the Foreign Keys of the others!. So I just worked with the products table with the following attributes:
 * `id`
 * `product_title_fa`
 * `product_title_en`
@@ -17,5 +17,5 @@ Because of `title_alt` is multi-valued, I create a new table to store its conten
 2. Install xlrd.
 3. Place "5-awte8wbd.xlsx" in the root of "codes" directory.
 4. Make sure there is no database named "digikala_db" in your databases.
-5. Run "tables.py" to create tables and then run "script.py" to load data.
+5. Run "tables.py" to create the tables and then run "script.py" to load the data.
 6. Enter your mysql root password when the scripts run.
